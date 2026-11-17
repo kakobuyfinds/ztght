@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<title>LoveGoBuy spreadsheet | Product Finds, QC &amp; Shipping Guide</title>
+<meta name="description" content="Browse LoveGoBuy spreadsheet finds from CAFANS. Filter shoes, hoodies, tees and jackets, compare USD estimates, and check sizing, QC photos and shipping.">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f3ec;color:#172920;font:16px/1.6 system-ui,sans-serif}main,footer{width:min(1080px,calc(100% - 32px));margin:auto}.hero{text-align:center;margin:24px 0 36px;padding:clamp(36px,8vw,96px) 18px;background:#102e25;color:#f7f7e9;border-radius:24px}.hero p{max-width:52ch;margin:12px auto 24px}h1,h2,h3{line-height:1.15}h1{font:700 clamp(2.3rem,7vw,5rem)/1.05 Georgia,serif;margin:0}.actions,.filters{display:flex;flex-wrap:wrap;gap:12px}.actions{justify-content:center}.button{display:inline-block;border-radius:10px;padding:10px 18px;background:#dbf291;color:#142a21;font-weight:700}.button+ .button{background:transparent;color:white;outline:1px solid #b5c8bb;outline-offset:-1px}a{color:#20543d;text-underline-offset:3px}a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #bc6221;outline-offset:3px}.filters label{display:grid;gap:4px;flex:1;min-width:160px}input,select{width:100%;font:inherit;padding:8px 10px;border:1px solid #788778;border-radius:8px;background:#fff;color:inherit}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,225px),1fr));gap:16px}.card{background:white;border:1px solid #dce2d8;border-radius:14px;overflow:hidden}.card img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;background:#eef0eb}.card div{padding:14px}.card h3{margin:6px 0}.card p{margin:0}.card small{color:#476555}.guide{margin:40px 0;padding:24px;background:#e6eddf;border-radius:16px}details{padding:12px 0;border-bottom:1px solid #afbead}summary{cursor:pointer;font-weight:700}footer{padding:0 0 32px;font-size:.9rem}[hidden]{display:none!important}
+</style>
+<link rel="canonical" href="https://kakobuyfinds.github.io/ztght/">
+</head>
+<body>
+<!-- index.html
+竞争页面样本：lovegobuyguide.com 提供 QC 筛选，lovegobuysheet.org 将搜索交给外站，lovegobuy.cc 提供商品估价和指南。搜索结果样本未核实为 Google 首页的固定排名。
+本页提供原地筛选、静态商品详情链接和下单前核对清单。
+Google 和 Bing 尚未提交。部署后，用最终公开网址在已验证的 Google Search Console 属性中请求编入索引，并通过 Bing Webmaster Tools 提交网址。部署地址确定后可添加自引用 canonical。
+-->
+<main>
+<header class="hero">
+<h1>LoveGoBuy spreadsheet</h1>
+<p>Browse CAFANS finds, compare estimated item prices, and review what to check before placing an agent order.</p>
+<div class="actions"><a class="button" href="https://cafans.com">LoveGoBuy spreadsheet</a><a class="button" href="https://cafans.com">Buy it now</a></div>
+</header>
+<section aria-labelledby="catalog">
+<h2 id="catalog">Product finds from CAFANS</h2>
+<p>Featured listings with estimated item prices in USD. Confirm options, availability and the final total before paying.</p>
+<div class="filters" id="filters" hidden>
+<label>Search products<input id="query" type="search" placeholder="Try hoodie or slides"></label>
+<label>Category<select id="category"><option value="">All categories</option><option>Shoes</option><option>Hoodies</option><option>T-shirts</option><option>Jackets</option></select></label>
+</div>
+<p id="count" role="status" hidden></p>
+<div class="grid" id="products">
+<article class="card" data-category="Shoes"><img src="https://si.geilicdn.com/open1769158365-252808396-70340000019822fe6f2d0a23b491_1200_1200.jpg" alt="Leather Slides from CAFANS" width="360" height="360" loading="lazy"><div><small>Shoes</small><h3><a href="https://cafans.com/goods-158791.html">Leather Slides</a></h3><p>$62.36 USD estimated</p></div></article>
+<article class="card" data-category="Hoodies"><img src="https://si.geilicdn.com/open1806012509-1234478995-08f200000197108df0eb0a8115c2_800_800.jpg" alt="Thug Club Rock Hoodie from CAFANS" width="360" height="360" loading="lazy"><div><small>Hoodies</small><h3><a href="https://cafans.com/goods-158280.html">Thug Club - Rock Hoodie</a></h3><p>$37.22 USD estimated</p></div></article>
+<article class="card" data-category="T-shirts"><img src="https://si.geilicdn.com/open1792148229-1234478995-4b8f00000196ff70111b0aa08290_1066_1066.jpg" alt="Unisex Embroidered Oversized T-Shirt from CAFANS" width="360" height="360" loading="lazy"><div><small>T-shirts</small><h3><a href="https://cafans.com/goods-158200.html">Unisex Embroidered Oversized T-Shirt</a></h3><p>$32.64 USD estimated</p></div></article>
+<article class="card" data-category="Jackets"><img src="https://si.geilicdn.com/open1806012509-1234478995-093600000197108e2db10a8115c2_1000_1000.jpg" alt="Corteiz Jacket from CAFANS" width="360" height="360" loading="lazy"><div><small>Jackets</small><h3><a href="https://cafans.com/goods-158279.html">Corteiz Jacket</a></h3><p>$42.78 USD estimated</p></div></article>
+</div>
+</section>
+<section class="guide" aria-labelledby="checklist">
+<h2 id="checklist">How to use the LoveGoBuy spreadsheet</h2>
+<ol>
+<li>Open a CAFANS listing, check the seller’s size chart, and save the exact size and color. On the product page, open <strong>Buy Link</strong> and look for LoveGoBuy in the platform list.</li>
+<li>If warehouse quality-control (QC) photos are available, compare the item and size label with your order. For tops, ask for chest width and body length if fit is uncertain.</li>
+<li>Before dispatch, compare shipping quotes for the same destination, parcel weight and dimensions. Check whether your route bills by actual weight or volumetric weight.</li>
+</ol>
+<h2>Frequently asked questions</h2>
+<details><summary>What should I include in my total budget?</summary><p>Add the item cost, seller-to-warehouse shipping, agent or payment fees if applicable, international freight, and any taxes or duties you expect to pay.</p></details>
+<details><summary>Can I browse without Excel?</summary><p>Yes. The directory works in the browser. You can open the product links directly or narrow the list by name and category.</p></details>
+</section>
+</main>
+<footer>Independent shopping guide. Product listings and price estimates are sourced from <a href="https://cafans.com">CAFANS</a>.</footer>
+<script>
+const query = document.getElementById('query');
+const category = document.getElementById('category');
+const count = document.getElementById('count');
+const cards = Array.from(document.querySelectorAll('#products .card'));
+
+function filterProducts() {
+  const term = query.value.trim().toLowerCase();
+  let visible = 0;
+
+  for (const card of cards) {
+    const matchesCategory = !category.value || card.dataset.category === category.value;
+    card.hidden = !matchesCategory || !card.querySelector('h3').textContent.toLowerCase().includes(term);
+    if (!card.hidden) visible += 1;
+  }
+
+  count.textContent = visible
+    ? `${visible} of ${cards.length} products`
+    : 'No matching products. Try another search or category.';
+}
+
+query.addEventListener('input', filterProducts);
+category.addEventListener('change', filterProducts);
+filterProducts();
+document.getElementById('filters').hidden = false;
+count.hidden = false;
+</script>
+</body>
+</html>
